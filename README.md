@@ -85,6 +85,8 @@ This leaves a highly comfortable current margin for the MCU and standard I²C co
 
 > **Reference:** TI Application Figure 8-2
 
+![BMS Schematic](Screenshot%202026-05-31%20145409.png)
+
 At first glance, the gate drive circuitry for the Charge FET (Q1) appears overly complex — utilizing an auxiliary P-Channel MOSFET (Q3) and a diode network instead of a direct connection to the BQ76920 `CHG` pin. This specific topology was selected to provide critical system protection against negative voltage transients on the `PACK-` terminal, which frequently occur during reverse-charger connections or highly inductive load disconnection.
 
 If the `PACK-` voltage is driven aggressively negative relative to system ground (`VSS` / `BAT-`):
@@ -123,10 +125,8 @@ The parallel 1MΩ resistor ensures Q1 is safely clamped OFF when the `CHG` signa
 
 ## References
 
-- [BQ76920 Datasheet — Texas Instruments](http://www.ti.com/lit/ds/symlink/bq76920.pdf)
-- TI BQ76920 Evaluation Module (BQ76920EVM)
-- [STM32G030K8T6 Datasheet — STMicroelectronics](https://www.st.com/resource/en/datasheet/stm32g030c6.pdf)
-- IRFB3206PbF Datasheet — Infineon/International Rectifier
+- [BQ76920 Datasheet — Texas Instruments](bq76920)
+- [TI BQ76920 Evaluation Module (BQ76920EVM)](Evaluation%module.pdf)
 
 ---
 
