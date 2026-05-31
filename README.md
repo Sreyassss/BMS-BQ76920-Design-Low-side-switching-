@@ -1,7 +1,10 @@
 # BQ76920 Low-Side Battery Management System (3S / 5S)
 
 ---
+![BMS Schematic](Screenshot%202026-05-31%20150324.png)
 
+[View Schematic (PDF)](schematic.pdf)
+---
 ## Overview
 
 This repository contains the KiCad schematic and design files for a Battery Management System (BMS) based on the Texas Instruments **BQ76920** Analog Front End (AFE). While the schematic is designed to accommodate up to a 5-series (5S) lithium-ion cell configuration, the current component selection is heavily optimized for a **3S battery pack** architecture.
