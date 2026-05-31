@@ -125,8 +125,8 @@ The parallel 1MΩ resistor ensures Q1 is safely clamped OFF when the `CHG` signa
 
 ## References
 
-- [BQ76920 Datasheet — Texas Instruments](bq76920)
-- [TI BQ76920 Evaluation Module (BQ76920EVM)](Evaluation%module.pdf)
+- [BQ76920 Datasheet — Texas Instruments](bq76920.pdf)
+- [TI BQ76920 Evaluation Module (BQ76920EVM)](Evaluation%20module.pdf)
 
 ---
 
